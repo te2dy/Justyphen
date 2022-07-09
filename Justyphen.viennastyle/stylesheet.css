@@ -93,3 +93,10 @@ a:hover {
   height: auto;
   max-width: 30rem;
 }
+p {
+  margin: 1em 0;
+}
+figure {
+  display: block;
+  margin: 1rem 0;
+}
