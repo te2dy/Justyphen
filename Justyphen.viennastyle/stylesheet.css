@@ -86,6 +86,7 @@ a:hover {
      -moz-hyphenate-limit-last: always;
       -ms-hyphenate-limit-last: always;
           hyphenate-limit-last: always;
+  line-height: 1.5;
   text-align: justify;
 }
 .body * {
