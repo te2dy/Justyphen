@@ -8,6 +8,7 @@
   --color-text-main: #000;
   --color-link: hsl(220, 100%, 25%);
   --color-link-hover: hsl(220, 100%, 50%);
+  --color-border: hsl(220, 0%, 60%);
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -15,6 +16,7 @@
     --color-text-main: #fff;
     --color-link: hsl(220, 80%, 75%);
     --color-link-hover: hsl(220, 80%, 50%);
+    --color-border: hsl(220, 0%, 60%);
   }
 }
 body {
@@ -99,4 +101,9 @@ p {
 figure {
   display: block;
   margin: 1rem 0;
+}
+blockquote {
+  border-left: .063rem solid var(--color-border);
+  padding-left: 1rem;
+  margin-left: 1rem;
 }
