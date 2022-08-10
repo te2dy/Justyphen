@@ -102,6 +102,10 @@ figure {
   display: block;
   margin: 1rem 0;
 }
+figcaption {
+  text-align: center;
+  font-size: .9em;
+}
 blockquote {
   border-left: .063rem solid var(--color-border);
   padding-left: 1rem;
