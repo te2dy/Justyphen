@@ -111,3 +111,12 @@ blockquote {
   padding-left: 1rem;
   margin-left: 1rem;
 }
+hr {
+  border: 0;
+  margin: 2em 0;
+  text-align: center;
+}
+hr::after {
+  color: var(--color-text-primary);
+  content: "\002042"; /* ⁂ */
+}
